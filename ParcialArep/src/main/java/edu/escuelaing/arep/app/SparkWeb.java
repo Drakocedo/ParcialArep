@@ -20,7 +20,7 @@ import org.json.JSONObject;
 public class SparkWeb {
     public static void main(String[] args) {
         port(getPort());
-        get("/inputdata", (req, res) -> inputDataPage(req, res));
+        get("/", (req, res) -> inputDataPage(req, res));
         get("/results", (Request req, Response res) -> {res.type("application/json");
              return resultsPage(req, res);
                     });
