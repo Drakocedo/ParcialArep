@@ -34,7 +34,7 @@ public class SparkWeb {
                 = "<!DOCTYPE html>"
                 + "<html>"
                 + "<body>"
-                + "<h2>Taller 2 AREP</h2>"
+                + "<h2>Parcial AREP</h2>"
                 + "<form action=\"/results\">"
                 + " Ingrese los numeros separados por coma (,) :<br>"
                 + "  <input type=\"text\" name=\"lista\" >"
